@@ -1,0 +1,123 @@
+body, form, div, span, ul, ol, li, p, pre, dl, dt, dd, h1, h2, h3, h4, h5, h6, em, a, fieldset, legend, address, label, textarea, select, input, figure, table, th, td, b, i {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+body, button, input, select, textarea {
+
+}
+
+fieldset, img {
+  border: 0
+}
+
+ul, li {
+  list-style: none
+}
+
+em, i {
+  font-style: normal
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0
+}
+
+a {
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+a:focus, input, button, select, textarea {
+  outline: none;
+  font-size: 100%
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-variant: normal
+}
+
+input, select, img {
+  vertical-align: middle
+}
+legend {
+  display: none
+}
+
+textarea {
+  resize: none
+}
+
+button {
+  cursor: pointer
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  // overflow: hidden;
+  position: relative
+}
+
+body{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  tap-highlight-color: rgba(0,0,0,0);
+}
+/*重置滚动条样式*/
+html{
+
+  scrollbar-3dlight-color:#D4D0C8; /*- 最外左 -*/
+
+  scrollbar-highlight-color:#fff; /*- 左二 -*/
+
+  scrollbar-face-color:#000; /*- 面子 -*/
+
+  scrollbar-arrow-color:#666; /*- 箭头 -*/
+
+  scrollbar-shadow-color:#808080; /*- 右二 -*/
+
+  scrollbar-darkshadow-color:#D7DCE0; /*- 右一 -*/
+
+  scrollbar-base-color:#000; /*- 基色 -*/
+
+  /*scrollbar-track-color:#;*//*- 滑道 -*/
+
+}
+::-webkit-scrollbar {
+
+  width:5px;
+
+}
+
+/* 滚动槽 */
+
+::-webkit-scrollbar-track {
+
+  -webkit-box-shadow:inset006pxrgba(0,0,0,0.7);
+  border-radius:10px;
+
+}
+
+/* 滚动条滑块 */
+
+::-webkit-scrollbar-thumb {
+
+  border-radius:10px;
+
+  background:rgba(0,0,0,0.15);
+
+  -webkit-box-shadow:inset006pxrgba(0,0,0,0.7);
+
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+
+  // background:rgba(0,0,0,1);
+
+}
